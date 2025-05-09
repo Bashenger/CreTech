@@ -1,7 +1,7 @@
 # CreTech
 This project is part of the CreTech portfolio, a collection of diverse projects showcasing various development skills and approaches to building different types of applications.
 
-# PROJECT 1:
+# Project 1:
 ## Simple Chatbot
 
 This is a simple chatbot built using Python and spaCy for natural language processing. The chatbot can respond to greetings, questions, and other simple inputs using predefined responses. It was developed as part of an internship project to demonstrate natural language processing (NLP) capabilities.
