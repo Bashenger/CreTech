@@ -73,3 +73,52 @@ This is a classic Tic-Tac-Toe game implemented using Python and the Pygame libra
 
 Contributions to this project are welcome. If you have any ideas, bug reports, or feature requests,
 please feel free to open an issue or submit a pull request. Please follow standard Git contribution guidelines.
+
+
+# Project 3:
+
+## To Do List App
+
+This is a simple yet effective command-line (CLI) To-Do List application written in Python. It allows users to manage their tasks by adding, viewing, editing, marking as complete/pending, and removing them. The application saves tasks to a local JSON file, ensuring data persistence between sessions. Its straightforward design makes it easy to use and understand, even for beginners.Some of the feature ideas and parts of the code were developed with the assistance of AI.
+
+## Key Features
+
+* **Add Tasks:** Easily add new tasks with a title, an optional description, and an optional due date (DD-MM-YYYY format).
+* **View Tasks:**
+    * View all tasks.
+    * Filter tasks to see only pending ones.
+    * Filter tasks to see only completed ones.
+* **Mark Task Status:**
+    * Mark tasks as completed.
+    * Revert completed tasks back to pending.
+* **Edit Tasks:** Modify the title, description, or due date of existing tasks.
+* **Remove Tasks:** Delete tasks from the list.
+* **Data Persistence:** Tasks are automatically saved to a `todolist_data.json` file and loaded when the application starts.
+* **User-Friendly CLI:** Interactive menu-driven interface for easy navigation and operation.
+* **Date Handling:** Supports due dates and tracks task creation dates.
+
+## Technology Used
+
+* **Python 3:** The core programming language used.
+* **Standard Libraries:**
+    * `json`: For serializing and deserializing task data to/from a JSON file for persistence.
+    * `datetime`: For handling task creation dates and due dates.
+    * `os`: For checking file existence (e.g., the tasks data file).
+
+## Future Enhancements
+
+While this application is functional, here are some potential enhancements for the future:
+
+* **Graphical User Interface (GUI):** Develop a GUI using libraries like Tkinter, PyQt, Kivy, or a web-based interface (e.g., using Flask/Django with HTML/CSS/JS) for a more visual experience.
+* **Sorting Options:** Allow users to sort tasks by due date, creation date, or title.
+* **Search Functionality:** Implement a way to search for tasks by keywords in their title or description.
+* **Cloud Sync:** Option to sync tasks with a cloud service (e.g., Google Tasks, or a custom backend).
+* **User Accounts:** For multi-user support, if deployed in a shared environment.
+* **More Robust Error Handling:** Enhance error handling for edge cases and invalid inputs.
+* **Customizable Data Storage:** Allow users to specify a different file path or even choose a database (like SQLite) for storage.
+* **Themes/Customization:** (For GUI versions) Allow users to customize the appearance.
+
+## Contributing
+
+Contributions to this project are welcome. If you have any ideas, bug reports, or feature requests,
+please feel free to open an issue or submit a pull request. Please follow standard Git contribution guidelines.
