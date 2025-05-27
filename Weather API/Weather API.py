@@ -166,8 +166,8 @@ class WeatherClient:
             print("Could not retrieve forecast weather data.")
 
 if __name__ == "__main__":
-    YOUR_API_KEY = '0d4b55c0ef79ba70fc5fe9a23978277f'
-
+    YOUR_API_KEY = 'your_actual_api_key_here'
+       # While testing, this was my API key: '0d4b55c0ef79ba70fc5fe9a23978277f'
     if YOUR_API_KEY == "YOUR_OPENWEATHERMAP_API_KEY":
         print("Please replace 'YOUR_OPENWEATHERMAP_API_KEY' with your actual API key.")
         print("You can get one from: https://openweathermap.org/api")
