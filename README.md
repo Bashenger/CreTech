@@ -122,3 +122,96 @@ While this application is functional, here are some potential enhancements for t
 
 Contributions to this project are welcome. If you have any ideas, bug reports, or feature requests,
 please feel free to open an issue or submit a pull request. Please follow standard Git contribution guidelines.
+
+# Project 4:
+
+## Weather API Application
+
+A command-line Python application to fetch and display current weather and 5-day forecasts for any city or coordinates using the OpenWeatherMap API.
+
+## Features
+
+- Get current weather by city name or geographic coordinates (latitude & longitude)
+- Display 5-day weather forecast (with temperature, humidity, wind speed, and description)
+- Supports metric, imperial, and standard units
+- User-friendly CLI interface
+
+## Requirements
+
+- Python 3.7+
+- `requests` library
+
+Install dependencies with:
+
+```
+pip install -r requirements.txt
+```
+
+## Setup
+
+1. **Get an API Key:**  
+   Sign up at [OpenWeatherMap](https://openweathermap.org/api) and get your free API key.
+
+2. **Configure the API Key:**  
+   Open `Weather API.py` and replace the value of `YOUR_API_KEY` with your actual API key:
+
+   ```python
+   YOUR_API_KEY = 'your_actual_api_key_here'
+   ```
+
+## Usage
+
+Run the application:
+
+```
+python "Weather API.py"
+```
+
+Follow the prompts to:
+- Enter a city name or coordinates
+- View current weather and optionally a 5-day forecast
+
+## Example
+
+```
+--- Weather Forecast Application ---
+Choose an option:
+1. Get weather by City Name
+2. Get weather by Coordinates (Latitude & Longitude)
+3. Exit
+Enter your choice (1, 2, or 3): 1
+Enter city name: Delhi
+
+--- Current Weather ---
+Location: Delhi, IN
+Temperature: 34°C (Feels like: 36°C)
+Description: Clear sky
+Humidity: 40%
+Pressure: 1005 hPa
+Wind Speed: 2.1 m/s
+Sunrise: 05:23:45
+Sunset: 19:12:10
+```
+
+## Notes
+
+- If you see an "Invalid API key" error, double-check your API key and ensure it is active.
+- The application uses the free tier of OpenWeatherMap, which may have request limits.
+
+## Future Enhancements
+
+- **GUI Support:** Add a graphical user interface for easier interaction.
+- **Weather Alerts:** Integrate weather alerts and warnings from the API.
+- **Historical Data:** Allow users to fetch historical weather data.
+- **Unit Selection:** Enable users to choose units (metric, imperial, standard) at runtime.
+- **Location Detection:** Auto-detect user location for weather queries.
+- **Error Logging:** Implement advanced error logging and reporting.
+- **API Key Management:** Securely manage and store API keys.
+- **Export Data:** Allow exporting weather data to CSV or JSON files.
+- **Testing:** Add automated unit and integration tests.
+- **Dockerization:** Provide a Dockerfile for easy deployment.
+
+## Contributing
+
+Contributions to this project are welcome. If you have any ideas, bug reports, or feature requests,
+please feel free to open an issue or submit a pull request. Please follow standard Git contribution guidelines.
